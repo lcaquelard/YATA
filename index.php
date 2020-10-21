@@ -22,6 +22,7 @@
 </head>
 <body>
 <div>
+  <a href="input.php">Add new travels</a>
   <h1>List of the different travels</h1>
   <?php
     foreach($print as $key => $travel)

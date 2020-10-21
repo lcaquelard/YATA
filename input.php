@@ -21,6 +21,7 @@ if (isset($_POST['json'])) {
     <title>Travel input</title>
   </head>
   <body>
+  <a href="index.php">Back to the travels display</a>
     <form method="post">
       <label for="json">Fill in a travel sequence in json:</label>
       <textarea id="json" name="json"></textarea>
